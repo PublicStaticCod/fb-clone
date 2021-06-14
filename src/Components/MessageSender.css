@@ -1,0 +1,77 @@
+.messageSender {
+	display: flex;
+	margin-top: 30px;
+	flex-direction: column;
+	background-color: #242525;
+	border-radius: 15px;
+	box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
+	width: 100%;
+}
+
+.messageSender__top {
+	display: flex;
+	border-bottom: 1px solid #b8bbbf;
+	padding-bottom: 15px;
+	padding: 15px;
+}
+
+.messageSender__top > form {
+	flex: 1;
+	display: flex;
+}
+
+.messageSender__top > form > input {
+	outline-width: 0;
+	border: none;
+	padding: 5px 20px;
+	margin: 0 10px;
+	border-radius: 999px;
+	background-color: #4e4f4f;
+}
+
+.messageSender__fileSelector {
+	width: 20%;
+	color: #b4b6bb;
+}
+
+.messageSender__top > form > button {
+	height: 0;
+	width: 0;
+	background-color: transparent;
+	color: transparent;
+	border: none;
+}
+
+.messageSender__input {
+	flex: 1;
+	color: #b4b6bb;
+}
+
+.messageSender__bottom {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.messageSender__option {
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	color: #b4b6bb;
+	margin: 5px;
+}
+
+.messageSender__option > h3 {
+	font-size: medium;
+	margin-left: 10px;
+}
+
+.messageSender__option:hover {
+	background-color: #3a3b3b;
+	border-radius: 20px;
+}
+
+/* button */
+
+.messageSender__button {
+	border-radius: 999px;
+}
